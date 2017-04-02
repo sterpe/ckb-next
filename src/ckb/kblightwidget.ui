@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1125</width>
-    <height>1292</height>
+    <width>596</width>
+    <height>450</height>
    </rect>
   </property>
   <property name="focusPolicy">
@@ -361,15 +361,15 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>ColorButton</class>
-   <extends>QPushButton</extends>
-   <header location="global">colorbutton.h</header>
-  </customwidget>
-  <customwidget>
    <class>KeyWidget</class>
    <extends>QWidget</extends>
    <header>keywidget.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ColorButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">colorbutton.h</header>
   </customwidget>
   <customwidget>
    <class>KbAnimWidget</class>
