@@ -299,10 +299,10 @@ AnimSettingDialog::AnimSettingDialog(QWidget* parent, KbAnim* anim) :
         // If repeat is not enabled, hide repeat-related fields
         ui->repeatBox->setHidden(true);
         ui->repeatLabel->setHidden(true);
-        ui->repeatLabel_2->setHidden(true);
+//        ui->repeatLabel_2->setHidden(true);
         ui->kpRepeatBox->setHidden(true);
         ui->kpRepeatLabel->setHidden(true);
-        ui->kpRepeatLabel_2->setHidden(true);
+//        ui->kpRepeatLabel_2->setHidden(true);
         // Add stop times as double values
         // Stop time
         QDoubleSpinBox* spinner = new QDoubleSpinBox(this);

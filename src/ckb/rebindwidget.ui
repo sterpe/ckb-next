@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>964</width>
-    <height>498</height>
+    <width>438</width>
+    <height>297</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -26,7 +26,7 @@
       </sizepolicy>
      </property>
      <property name="currentIndex">
-      <number>5</number>
+      <number>0</number>
      </property>
      <property name="usesScrollButtons">
       <bool>true</bool>
@@ -45,25 +45,10 @@
        <property name="bottomMargin">
         <number>6</number>
        </property>
-       <item row="6" column="4">
-        <widget class="QComboBox" name="numBox">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <item>
-          <property name="text">
-           <string/>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="1" column="1">
+       <item row="1" column="0">
         <widget class="QComboBox" name="typingBox">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -75,163 +60,7 @@
          </item>
         </widget>
        </item>
-       <item row="6" column="1">
-        <widget class="QComboBox" name="fnBox">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <item>
-          <property name="text">
-           <string/>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="9" column="1">
-        <spacer name="verticalSpacer_10">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>5</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="1" column="2">
-        <spacer name="horizontalSpacer_4">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="15" column="2">
-        <spacer name="verticalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>50</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="0" colspan="2">
-        <widget class="QRadioButton" name="typingButton">
-         <property name="text">
-          <string>T&amp;yping:</string>
-         </property>
-         <property name="autoExclusive">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="4">
-        <widget class="QComboBox" name="modBox">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <item>
-          <property name="text">
-           <string/>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <spacer name="horizontalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>5</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="10" column="0" colspan="2">
-        <widget class="QRadioButton" name="mediaButton">
-         <property name="text">
-          <string>&amp;Media:</string>
-         </property>
-         <property name="autoExclusive">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <spacer name="verticalSpacer_4">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>5</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="3" colspan="2">
-        <widget class="QRadioButton" name="modButton">
-         <property name="text">
-          <string>Modifier:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0" colspan="2">
-        <widget class="QRadioButton" name="fnButton">
-         <property name="text">
-          <string>Misce&amp;llaneous:</string>
-         </property>
-         <property name="autoExclusive">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="1">
-        <widget class="QComboBox" name="mediaBox">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <item>
-          <property name="text">
-           <string/>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="5" column="3" colspan="2">
+       <item row="4" column="2" colspan="2">
         <widget class="QRadioButton" name="numButton">
          <property name="text">
           <string>Number pad:</string>
@@ -241,18 +70,102 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="5">
-        <spacer name="horizontalSpacer_17">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="modBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QComboBox" name="numBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-        </spacer>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="2">
+        <widget class="QRadioButton" name="modButton">
+         <property name="text">
+          <string>Modifier:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QComboBox" name="fnBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QComboBox" name="mediaBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="typingButton">
+         <property name="text">
+          <string>T&amp;yping:</string>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QRadioButton" name="fnButton">
+         <property name="text">
+          <string>Misce&amp;llaneous:</string>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QRadioButton" name="mediaButton">
+         <property name="text">
+          <string>&amp;Media:</string>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -267,81 +180,10 @@
        <string>Mouse</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="3" column="3" colspan="5">
-        <widget class="QRadioButton" name="dpiButton">
-         <property name="text">
-          <string>Change DPI:</string>
-         </property>
-         <property name="autoExclusive">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <spacer name="verticalSpacer_2">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="2" column="1">
-        <spacer name="verticalSpacer_8">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>5</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
        <item row="1" column="0">
-        <spacer name="horizontalSpacer_18">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>5</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="1" column="3">
-        <spacer name="horizontalSpacer_20">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>5</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="1" column="4" colspan="4">
-        <widget class="QComboBox" name="mb2Box">
+        <widget class="QComboBox" name="mbBox">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -353,33 +195,55 @@
          </item>
          <item>
           <property name="text">
-           <string>4 (Back)</string>
+           <string>Left</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>5 (Forward)</string>
+           <string>Right</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>6</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>7</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>8</string>
+           <string>Middle</string>
           </property>
          </item>
         </widget>
        </item>
-       <item row="4" column="4">
+       <item row="3" column="2" alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="dpiCustLabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>x</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSpinBox" name="dpiCustXBox">
+         <property name="minimum">
+          <number>400</number>
+         </property>
+         <property name="maximum">
+          <number>8500</number>
+         </property>
+         <property name="singleStep">
+          <number>50</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
         <widget class="QComboBox" name="dpiBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <item>
           <property name="text">
            <string/>
@@ -432,51 +296,34 @@
          </item>
         </widget>
        </item>
-       <item row="4" column="7">
-        <widget class="QSpinBox" name="dpiCustYBox">
-         <property name="minimum">
-          <number>400</number>
+       <item row="0" column="1">
+        <widget class="QRadioButton" name="mb2Button">
+         <property name="text">
+          <string>Special button:</string>
          </property>
-         <property name="maximum">
-          <number>8500</number>
-         </property>
-         <property name="singleStep">
-          <number>50</number>
+         <property name="autoExclusive">
+          <bool>false</bool>
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
-        <widget class="QComboBox" name="mbBox">
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="mbButton">
+         <property name="text">
+          <string>Standard button:</string>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="wheelBox">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
-         <item>
-          <property name="text">
-           <string/>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Left</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Right</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Middle</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="QComboBox" name="wheelBox">
          <item>
           <property name="text">
            <string/>
@@ -494,18 +341,78 @@
          </item>
         </widget>
        </item>
-       <item row="0" column="0" colspan="2">
-        <widget class="QRadioButton" name="mbButton">
+       <item row="0" column="2">
+        <widget class="QRadioButton" name="wheelButton">
          <property name="text">
-          <string>Standard button:</string>
+          <string>Whee&amp;l:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="mb2Box">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4 (Back)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>5 (Forward)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="6">
+        <widget class="QLabel" name="dpiWarning">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>DPI is only available for mice.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QRadioButton" name="dpiButton">
+         <property name="text">
+          <string>Change DPI:</string>
          </property>
          <property name="autoExclusive">
           <bool>false</bool>
          </property>
         </widget>
        </item>
-       <item row="4" column="5">
-        <widget class="QSpinBox" name="dpiCustXBox">
+       <item row="3" column="4">
+        <widget class="QSpinBox" name="dpiCustYBox">
          <property name="minimum">
           <number>400</number>
          </property>
@@ -516,85 +423,6 @@
           <number>50</number>
          </property>
         </widget>
-       </item>
-       <item row="6" column="0" colspan="10">
-        <widget class="QLabel" name="dpiWarning">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string>DPI is only available for mice.</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0" colspan="2">
-        <widget class="QRadioButton" name="wheelButton">
-         <property name="text">
-          <string>Whee&amp;l:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="8">
-        <spacer name="horizontalSpacer_22">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>5</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="0" column="3" colspan="5">
-        <widget class="QRadioButton" name="mb2Button">
-         <property name="text">
-          <string>Special button:</string>
-         </property>
-         <property name="autoExclusive">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="6">
-        <widget class="QLabel" name="dpiCustLabel">
-         <property name="text">
-          <string>x</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <spacer name="horizontalSpacer_19">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="1" column="9">
-        <spacer name="horizontalSpacer_21">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
        </item>
       </layout>
      </widget>
@@ -609,23 +437,24 @@
        <string>Animation</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_5">
-       <item row="6" column="2">
-        <spacer name="verticalSpacer_11">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="3" column="1">
+        <widget class="QCheckBox" name="animOnceBox">
+         <property name="text">
+          <string>Restart every time</string>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
+        </widget>
        </item>
-       <item row="4" column="2">
+       <item row="3" column="2">
+        <widget class="QCheckBox" name="animKrBox">
+         <property name="text">
+          <string>Stop on key release</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="2">
         <widget class="QComboBox" name="animBox">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -637,69 +466,10 @@
          </item>
         </widget>
        </item>
-       <item row="4" column="3">
-        <spacer name="horizontalSpacer_24">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="4" column="7">
-        <spacer name="horizontalSpacer_25">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="4" column="6">
-        <widget class="QCheckBox" name="animKrBox">
-         <property name="text">
-          <string>Stop on key release</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="4">
-        <widget class="QCheckBox" name="animOnceBox">
-         <property name="text">
-          <string>Restart every time</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="5">
-        <spacer name="horizontalSpacer_26">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
        <item row="0" column="1" colspan="2">
         <widget class="QRadioButton" name="animButton">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -708,22 +478,6 @@
           <string>Start animation on keypress:</string>
          </property>
         </widget>
-       </item>
-       <item row="4" column="1">
-        <spacer name="horizontalSpacer_23">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>5</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
        </item>
       </layout>
      </widget>
@@ -741,22 +495,6 @@
        <property name="bottomMargin">
         <number>6</number>
        </property>
-       <item row="1" column="0">
-        <spacer name="horizontalSpacer_5">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>5</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
        <item row="0" column="0" colspan="2">
         <widget class="QRadioButton" name="modeButton">
          <property name="text">
@@ -767,59 +505,7 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="3">
-        <widget class="QCheckBox" name="modeWrapBox">
-         <property name="text">
-          <string>Wrap-around</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="3">
-        <widget class="QCheckBox" name="lightWrapBox">
-         <property name="text">
-          <string>Wrap-around</string>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <spacer name="verticalSpacer_7">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>5</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="5" column="1">
-        <spacer name="verticalSpacer_6">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>5</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="6" column="0" colspan="2">
+       <item row="4" column="0" colspan="2">
         <widget class="QRadioButton" name="lockButton">
          <property name="text">
           <string>Windows lock:</string>
@@ -829,23 +515,55 @@
          </property>
         </widget>
        </item>
-       <item row="8" column="1">
-        <spacer name="verticalSpacer_5">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="2" column="0" colspan="2">
+        <widget class="QRadioButton" name="lightButton">
+         <property name="text">
+          <string>Brightness:</string>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
+         <property name="autoExclusive">
+          <bool>false</bool>
          </property>
-        </spacer>
+        </widget>
        </item>
-       <item row="4" column="1">
+       <item row="1" column="0">
+        <widget class="QComboBox" name="modeBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>(Previous)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>(Next)</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QCheckBox" name="modeWrapBox">
+         <property name="text">
+          <string>Wrap-around</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
         <widget class="QComboBox" name="lightBox">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -867,10 +585,20 @@
          </item>
         </widget>
        </item>
-       <item row="7" column="1">
+       <item row="3" column="1">
+        <widget class="QCheckBox" name="lightWrapBox">
+         <property name="text">
+          <string>Wrap-around</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
         <widget class="QComboBox" name="lockBox">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -897,70 +625,6 @@
          </item>
         </widget>
        </item>
-       <item row="3" column="0" colspan="2">
-        <widget class="QRadioButton" name="lightButton">
-         <property name="text">
-          <string>Brightness:</string>
-         </property>
-         <property name="autoExclusive">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QComboBox" name="modeBox">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <item>
-          <property name="text">
-           <string/>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>(Previous)</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>(Next)</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <spacer name="horizontalSpacer_8">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>5</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="7" column="3">
-        <spacer name="horizontalSpacer_10">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="programTab">
@@ -974,42 +638,39 @@
        <string>Program</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_4">
-       <item row="2" column="1">
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="4" column="0" colspan="2">
+        <widget class="QLabel" name="progTipLabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
+         <property name="text">
+          <string>Tip</string>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
          </property>
-        </spacer>
+        </widget>
        </item>
-       <item row="1" column="0">
-        <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+       <item row="3" column="0">
+        <widget class="QCheckBox" name="programKrSIBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Preferred</enum>
+         <property name="text">
+          <string>Single instance</string>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-        </spacer>
+        </widget>
        </item>
-       <item row="0" column="0" colspan="2">
+       <item row="0" column="0">
         <widget class="QCheckBox" name="programKpButton">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -1019,60 +680,63 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="1">
-        <widget class="QLineEdit" name="programKpBox"/>
-       </item>
-       <item row="0" column="2" colspan="2">
-        <spacer name="horizontalSpacer_11">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="programKpSIBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="1" column="2">
-        <spacer name="horizontalSpacer_13">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeType">
-          <enum>QSizePolicy::Fixed</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="4" column="1">
-        <widget class="QLineEdit" name="programKrBox"/>
-       </item>
-       <item row="3" column="0" colspan="2">
-        <widget class="QCheckBox" name="programKrButton">
          <property name="text">
-          <string>Launch program on key release:</string>
+          <string>Single instance</string>
          </property>
         </widget>
        </item>
-       <item row="0" column="4">
-        <spacer name="horizontalSpacer_12">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="programKpBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="programKpModeBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-        </spacer>
+         <item>
+          <property name="text">
+           <string>Run indefinitely</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Stop on release</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Stop on re-press</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="programKrBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
        </item>
        <item row="1" column="3" colspan="2">
         <widget class="QWidget" name="programKpExtra" native="true">
@@ -1092,61 +756,10 @@
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item>
-           <widget class="QCheckBox" name="programKpSIBox">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Single instance</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QComboBox" name="programKpModeBox">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <item>
-             <property name="text">
-              <string>Run indefinitely</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>Stop on release</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>Stop on re-press</string>
-             </property>
-            </item>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_15">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>0</width>
-              <height>0</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
          </layout>
         </widget>
        </item>
-       <item row="4" column="3" colspan="2">
+       <item row="3" column="3" colspan="2">
         <widget class="QWidget" name="programKrExtra" native="true">
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <property name="spacing">
@@ -1164,68 +777,33 @@
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item>
-           <widget class="QCheckBox" name="programKrSIBox">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="text">
-             <string>Single instance</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QComboBox" name="programKrModeBox">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <item>
-             <property name="text">
-              <string>Run indefinitely</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>Stop on re-press</string>
-             </property>
-            </item>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_16">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>0</width>
-              <height>0</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
          </layout>
         </widget>
        </item>
-       <item row="5" column="1" colspan="4">
-        <widget class="QLabel" name="progTipLabel">
+       <item row="3" column="1">
+        <widget class="QComboBox" name="programKrModeBox">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <item>
+          <property name="text">
+           <string>Run indefinitely</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Stop on re-press</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="programKrButton">
          <property name="text">
-          <string>Tip</string>
-         </property>
-         <property name="textInteractionFlags">
-          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+          <string>Launch program on key release:</string>
          </property>
         </widget>
        </item>
@@ -1312,7 +890,7 @@
        <property name="geometry">
         <rect>
          <x>550</x>
-         <y>110</y>
+         <y>90</y>
          <width>311</width>
          <height>121</height>
         </rect>
@@ -1361,7 +939,7 @@
         <item>
          <widget class="QGroupBox" name="groupBox_3">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -1372,22 +950,9 @@
          </widget>
         </item>
         <item>
-         <spacer name="verticalSpacer_9">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>40</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
          <widget class="QGroupBox" name="groupBox_4">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -1402,26 +967,13 @@
       <widget class="QWidget" name="layoutWidget_2">
        <property name="geometry">
         <rect>
-         <x>300</x>
-         <y>320</y>
+         <x>10</x>
+         <y>300</y>
          <width>621</width>
-         <height>52</height>
+         <height>51</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout_10">
-        <item row="0" column="0">
-         <widget class="QGroupBox" name="groupBox">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="title">
-           <string>Macro recording</string>
-          </property>
-         </widget>
-        </item>
         <item row="0" column="2">
          <widget class="QPushButton" name="btnStopMacro">
           <property name="enabled">
@@ -1464,6 +1016,19 @@
           </property>
          </widget>
         </item>
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="title">
+           <string>Macro recording</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </widget>
       <widget class="QLabel" name="lbl_macro">
@@ -1471,7 +1036,7 @@
         <rect>
          <x>10</x>
          <y>250</y>
-         <width>921</width>
+         <width>871</width>
          <height>41</height>
         </rect>
        </property>
@@ -1511,7 +1076,7 @@
         </rect>
        </property>
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -1534,25 +1099,9 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <spacer name="horizontalSpacer_14">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Minimum</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>0</width>
-         <height>0</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item>
       <widget class="QPushButton" name="unbindButton">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -1565,7 +1114,7 @@
      <item>
       <widget class="QPushButton" name="resetButton">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -1578,7 +1127,7 @@
      <item>
       <widget class="QPushButton" name="cancelButton">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -1591,7 +1140,7 @@
      <item>
       <widget class="QPushButton" name="applyButton">
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -1611,53 +1160,25 @@
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>pteMacroComment</tabstop>
-  <tabstop>dpiButton</tabstop>
-  <tabstop>mb2Box</tabstop>
   <tabstop>btnStartMacro</tabstop>
-  <tabstop>fnBox</tabstop>
-  <tabstop>dpiCustYBox</tabstop>
-  <tabstop>dpiBox</tabstop>
   <tabstop>applyButton</tabstop>
-  <tabstop>mbBox</tabstop>
   <tabstop>cancelButton</tabstop>
-  <tabstop>wheelBox</tabstop>
   <tabstop>btnStopMacro</tabstop>
   <tabstop>mbButton</tabstop>
-  <tabstop>dpiCustXBox</tabstop>
   <tabstop>btnClearMacro</tabstop>
-  <tabstop>wheelButton</tabstop>
-  <tabstop>mb2Button</tabstop>
-  <tabstop>animBox</tabstop>
-  <tabstop>animKrBox</tabstop>
-  <tabstop>animOnceBox</tabstop>
   <tabstop>animButton</tabstop>
   <tabstop>modeButton</tabstop>
-  <tabstop>modeWrapBox</tabstop>
-  <tabstop>lightWrapBox</tabstop>
   <tabstop>lockButton</tabstop>
-  <tabstop>lightBox</tabstop>
   <tabstop>resetButton</tabstop>
-  <tabstop>lockBox</tabstop>
   <tabstop>lightButton</tabstop>
-  <tabstop>modeBox</tabstop>
   <tabstop>unbindButton</tabstop>
   <tabstop>programKpButton</tabstop>
-  <tabstop>programKpBox</tabstop>
-  <tabstop>programKrBox</tabstop>
   <tabstop>programKrButton</tabstop>
-  <tabstop>programKpSIBox</tabstop>
-  <tabstop>programKpModeBox</tabstop>
-  <tabstop>programKrSIBox</tabstop>
-  <tabstop>programKrModeBox</tabstop>
-  <tabstop>typingBox</tabstop>
-  <tabstop>numBox</tabstop>
   <tabstop>pteMacroText</tabstop>
   <tabstop>typingButton</tabstop>
   <tabstop>mediaButton</tabstop>
-  <tabstop>modBox</tabstop>
   <tabstop>modButton</tabstop>
   <tabstop>fnButton</tabstop>
-  <tabstop>mediaBox</tabstop>
   <tabstop>numButton</tabstop>
  </tabstops>
  <resources/>
@@ -1697,22 +1218,6 @@
   <connection>
    <sender>btnClearMacro</sender>
    <signal>clicked()</signal>
-   <receiver>pteMacroText</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>718</x>
-     <y>206</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>705</x>
-     <y>131</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btnClearMacro</sender>
-   <signal>clicked()</signal>
    <receiver>pteMacroComment</receiver>
    <slot>clear()</slot>
    <hints>
@@ -1723,6 +1228,22 @@
     <hint type="destinationlabel">
      <x>722</x>
      <y>85</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnClearMacro</sender>
+   <signal>clicked()</signal>
+   <receiver>pteMacroText</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>718</x>
+     <y>206</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>131</y>
     </hint>
    </hints>
   </connection>

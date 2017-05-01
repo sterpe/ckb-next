@@ -50,7 +50,7 @@ KbWidget::KbWidget(QWidget *parent, Kb *_device) :
     if(!device->features.contains("fwupdate")){
         ui->fwUpdButton->hide();
         ui->fwUpdLabel->hide();
-        ui->fwUpdLayout->removeItem(ui->fwUpdLayout->itemAt(1));
+//        ui->fwUpdLayout->removeItem(ui->fwUpdLayout->itemAt(1));
     }
     // Set monochrome mode according to hardware
     if(device->monochrome)
