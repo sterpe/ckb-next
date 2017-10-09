@@ -1,6 +1,8 @@
 QT       += core gui widgets network
 CONFIG   += debug_and_release
 
+VERSION = 0.2.8
+
 TARGET = ckb
 TEMPLATE = app
 # GL isn't needed
@@ -22,7 +24,6 @@ macx {
 }
 
 # OSX settings
-QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.9
 ICON = ckb-logo.icns
 QMAKE_INFO_PLIST = ckb-info.plist
 macx {
